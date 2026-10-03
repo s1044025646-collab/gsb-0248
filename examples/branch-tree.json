@@ -1,0 +1,14 @@
+{
+  "name": "branch-tree",
+  "description": "带分支的二维树：F -> FF，X -> F+[[X]-X]-F[-FX]+X（25 度，初始朝上）",
+  "axiom": "X",
+  "rules": {
+    "F": "FF",
+    "X": "F+[[X]-X]-F[-FX]+X"
+  },
+  "turtle": {
+    "step": 4,
+    "angleDeg": 25,
+    "initialAngleDeg": 90
+  }
+}

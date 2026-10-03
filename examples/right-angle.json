@@ -1,0 +1,8 @@
+{
+  "name": "right-angle",
+  "description": "只有 F 的直角图案：F -> F+F-F-F+F（90 度）",
+  "axiom": "F+F+F+F",
+  "rules": {
+    "F": "F+F-F-F+F"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+build/
+data/*.db
+data/*.db-*
+data/*.svg
+report-*.svg
+serve.out
+serve.err
