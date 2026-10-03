@@ -1,0 +1,26 @@
+{
+  "name": "lsystem-backend",
+  "version": "1.0.0",
+  "description": "确定性 L 系统改写与海龟线段生成后端（API + CLI）",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "lsys": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "tsx --test test/*.test.ts",
+    "demo": "tsx scripts/demo.ts",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
